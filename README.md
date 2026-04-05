@@ -7,7 +7,7 @@ It helps you organize tasks efficiently across different stages: **To Do, In Pro
 
 ## 🚀 Live Demo
 
-👉 https://your-chronos-link.vercel.app/
+👉 https://chronos-lac.vercel.app/
 
 ---
 

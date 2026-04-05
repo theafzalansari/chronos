@@ -52,12 +52,16 @@ html {
 body {
   background-color: var(--bg-color);
   color: var(--primary-text-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 main {
   height: 100%;
   display: flex;
   flex-direction: column;
+  flex : 1;
 }
 
 nav {

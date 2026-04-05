@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Chronos</title>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div class="left">Chronos</div>
+        <div class="right"><button id="toggle-modal">Add new Task</button></div>
+      </nav>
+
+      <section class="board">
+        <div id="todo" class="task-column">
+          <div class="heading">
+            <div class="left">To Do</div>
+            <div class="right">Count</div>
+          </div>
+        </div>
+
+        <div id="progress" class="task-column">
+          <div class="heading">
+            <div class="left">In Progress</div>
+            <div class="right">Count</div>
+          </div>
+        </div>
+
+        <div id="done" class="task-column">
+          <div class="heading">
+            <div class="left">Done</div>
+            <div class="right">Count</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Built with ❤️ by Afzal Ansari</p>
+      <p>© 2026 Chronos. All rights reserved.</p>
+    </footer>
+
+    <div class="modal active add-new-task">
+      <div class="bg"></div>
+      <div class="center">
+        <input type="text" id="task-title-input" placeholder="Task Title" />
+        <textarea
+          id="task-description-input"
+          placeholder="Task Description"
+        ></textarea>
+        <button id="add-new-task" class="add-task-btn">Add Task</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
